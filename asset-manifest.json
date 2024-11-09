@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/bento/static/css/main.03b6249f.css",
+    "main.js": "/bento/static/js/main.565e6b88.js",
+    "static/js/453.f9d1b334.chunk.js": "/bento/static/js/453.f9d1b334.chunk.js",
+    "index.html": "/bento/index.html",
+    "main.03b6249f.css.map": "/bento/static/css/main.03b6249f.css.map",
+    "main.565e6b88.js.map": "/bento/static/js/main.565e6b88.js.map",
+    "453.f9d1b334.chunk.js.map": "/bento/static/js/453.f9d1b334.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.03b6249f.css",
+    "static/js/main.565e6b88.js"
+  ]
+}
