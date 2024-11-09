@@ -1,0 +1,22 @@
+{
+    "name": "K Om Senapati",
+    "username": "@kom-senapati",
+    "avatar": "https://avatars.githubusercontent.com/u/92045934?v=4",
+    "location": "Bhubaneswar",
+    "email": "komnoob123@gmail.com",
+    "contact": "https://github.com/kom-senapati",
+    "header": [
+        "Hi, I'm K Om.",
+        "I play with data and frameworks."
+    ],
+    "about": [
+        "I love Open Source.",
+        "I take part in Quira Quests. I love working with Python, Typescript and SQL."
+    ],
+    "socials": {
+        "youtube": "https://www.youtube.com/@kom_senapati",
+        "github": "https://github.com/kom-senapati",
+        "discord": "https://discord.com/users/800578362082459719",
+        "x": "https://x.com/kom_senapati"
+    }
+}

@@ -1,15 +1,28 @@
-import { RevealBento } from './components/Bento';
-import {Helmet} from "react-helmet";
+import { RevealBento } from './components/Bento/RevealBento';
+import { Helmet } from "react-helmet";
+import profileData from './data/profile.json';
+import { Profile } from './components/Bento/types';
+
+const profile: Profile = profileData;
 
 function App() {
+  const { name, avatar, location, email, contact, header, about, socials } = profile;
   return (
     <>
       <Helmet>
         <title>bento</title>
-        <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🪄</text></svg>" />
       </Helmet>
-      
-      <RevealBento />
+
+      <RevealBento
+        name={name}
+        avatar={avatar}
+        location={location}
+        email={email}
+        contact={contact}
+        header={header}
+        about={about}
+        socials={socials}
+      />
     </>
   )
 }
