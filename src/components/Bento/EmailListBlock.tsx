@@ -14,7 +14,7 @@ const EmailListBlock: React.FC<EmailListBlockProps> = ({ email }) => (
       <a href={`mailto:${email}`}>
         <button className="flex items-center gap-2 whitespace-nowrap rounded bg-zinc-50 px-3 py-2 text-sm font-medium text-zinc-900 transition-colors hover:bg-zinc-300">
           <FiMail /> 
-          <span className="hidden md:block">Send Mail</span>
+          <span className="hidden md:inline-flex">Send Mail</span>
         </button>
       </a>
     </div>
