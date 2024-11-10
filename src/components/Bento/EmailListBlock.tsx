@@ -13,7 +13,8 @@ const EmailListBlock: React.FC<EmailListBlockProps> = ({ email }) => (
       <p className="w-full rounded border border-zinc-700 bg-zinc-800 px-3 py-1.5">{email}</p>
       <a href={`mailto:${email}`}>
         <button className="flex items-center gap-2 whitespace-nowrap rounded bg-zinc-50 px-3 py-2 text-sm font-medium text-zinc-900 transition-colors hover:bg-zinc-300">
-          <FiMail /> Send Mail
+          <FiMail /> 
+          <span className="hidden md:block">Send Mail</span>
         </button>
       </a>
     </div>
