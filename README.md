@@ -1,46 +1,61 @@
-# Getting Started with Create React App
+# Bento 🪄
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A stylish and dynamic bento grid inspired by [Hover.dev's Reveal Bento](https://www.hover.dev/components/grids#reveal-bento).
+Built with **React**, **TypeScript**, **Framer Motion**, and **Tailwind CSS**.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Create Your Bento in 4 Easy Steps
 
-### `npm start`
+### Step 1️⃣ Clone the Repository
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```bash
+git clone https://github.com/your-username/bento.git
+cd bento
+```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Step 2️⃣ Install Dependencies
 
-### `npm test`
+```bash
+npm install
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Step 3️⃣ Personalize Your Bento
 
-### `npm run build`
+Edit the file located at:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+src/data/profile.json
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Customize it with your personal information, portfolio items, or any data you want to showcase.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Step 4️⃣ Start the Development Server
 
-### `npm run eject`
+```bash
+npm start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Visit [http://localhost:3000](http://localhost:3000) to see your Bento live in action!
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 📦 Tech Stack
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+* **React** — JavaScript library for building user interfaces
+* **TypeScript** — Strongly typed programming for JavaScript
+* **Framer Motion** — Animation library for React
+* **Tailwind CSS** — Utility-first CSS framework
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🌐 Deploy Your Bento to GitHub Pages
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Follow this tutorial to deploy your Bento portfolio to GitHub Pages:
+👉 [How to Deploy a Bento to GitHub Pages](https://dev.to/k0msenapati/deploy-a-bento-to-github-pages-2b2d)
+
+---
+
+## 🔗 Original Component Inspiration
+
+This project is based on the awesome Reveal Bento from [Hover.dev's Grids collection](https://www.hover.dev/components/grids#reveal-bento).
